@@ -135,7 +135,7 @@ $('#contact').click(() => {
   $('#display').addClass('hidden');
   $('#customDisplay').addClass('hidden');
   $('.form').html(`<div class="w-3/4">
-      <div class="grid grid-cols-2  gap-4">
+      <div class="grid md:grid-cols-2  gap-4">
         <div class="input">
           <input type="text" class="name w-full py-2 px-3 rounded-md focus:outline-cyan-400"  placeholder="Enter Your Name">
           <div class="nameAlarm hidden bg-red-700 text-white w-full text-center py-3 mt-2 rounded-lg">Special characters and numbers not allowed</div>
